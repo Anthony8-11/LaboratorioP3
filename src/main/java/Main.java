@@ -4,22 +4,25 @@ public class Main {
         PersonaCRUD personaCRUD = new PersonaCRUD();
 
         // Insertar personas
-        personaCRUD.insertarPersona("Juan", 30, "Ciudad A");
-        personaCRUD.insertarPersona("María", 25, "Ciudad B");
+        personaCRUD.insertarPersona("Yeison", 30, "Jutiapa");
+        personaCRUD.insertarPersona("Martin", 25, "Guatemala");
+        personaCRUD.insertarPersona("ElEx", 35, "Cuba");
+        personaCRUD.insertarPersona("Benito", 50, "Rusia");
+
 
         // Mostrar personas
         System.out.println("Personas:");
         personaCRUD.mostrarPersonas();
 
         // Actualizar persona
-        personaCRUD.actualizarPersona("Juan", "Juan Pérez");
+        personaCRUD.actualizarPersona("Yeison", "Yeison López");
 
         // Mostrar personas actualizadas
         System.out.println("\nPersonas después de la actualización:");
         personaCRUD.mostrarPersonas();
 
         // Eliminar persona
-        personaCRUD.eliminarPersona("María");
+        personaCRUD.eliminarPersona("ElEx");
 
         // Mostrar personas después de eliminar
         System.out.println("\nPersonas después de la eliminación:");
